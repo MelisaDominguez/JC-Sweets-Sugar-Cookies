@@ -1,9 +1,4 @@
-header{
-    background-image: url(ss2.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
+
 /*______________________NAVBAR________________________ */
 .navbar {
     width: 100%;
@@ -19,6 +14,7 @@ header{
     color: white;
     text-decoration: white;
     font-size: 18px;
+    border-style: groove;
   }
   
   .navbar a:hover {
@@ -26,8 +22,37 @@ header{
   }
   
   .active {
-    background-color: #4CAF50;
+    background-color:paleturquoise;
   }
 
+/*____________________SLIDESHOW__________________*/
+.mySlides {
+  width: 100%;
+  height: 50px;
+  border: lightgreen;
+  border-style: solid;
+  border-width: thick;
+}
 
 /*_____________________HOMEPAGE_CONTENT____________________*/
+h2 {
+  float: none;
+  text-align: center;
+  color: teal;
+  font-style: initial;
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+  border-style: solid;
+  border-color: teal;
+  background-color: teal;
+}
+
+/*____________________
+
+
