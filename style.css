@@ -34,20 +34,21 @@ li a.active {
 .mySlides { 
   width: 100%; 
   height: 50px; 
-  border: lightgreen; 
+  border: teal; 
   border-style: solid; 
   border-width: thick; 
 }
 /*_____________________HOMEPAGE_CONTENT____________________*/
 h2 {
   float: none;
-  text-align: center;
+  text-align: left;
   color: teal;
   font-style: initial;
 }
 
 p {
-  text-align: center;
+  text-align: left;
+  text-align-last: left;
 }
 
 ul {
@@ -57,6 +58,38 @@ ul {
   background-color: teal;
 }
 
-/*____________________
+OHrs {
+  text-align: left;
+  border-style: solid;
+  border-color: steelblue;
+}
+
+/*____________________Home_Page_Imgs_____________________*/
+
+.HPI {
+  border-style: ridge;
+  border-color: teal;
+  background-color: teal;
+}
+
+.MP {
+  width: 45%;
+  height: 25px;
+  border-style: solid;
+  border-color: black;
+}
 
 
+/*____________________About_Us_Imgs________________________*/
+
+
+
+
+
+
+
+
+
+
+
+/*_________________
