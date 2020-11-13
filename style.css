@@ -1,6 +1,6 @@
 
 /*______________________NAVBAR________________________ */
-ul {
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -9,11 +9,11 @@ ul {
   background-color: teal;
 }
 
-li {
+.NBN {
   float: left;
 }
 
-li a {
+.NBN a {
   display: block;
   color: white;
   text-align: center;
@@ -21,16 +21,16 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.NBN a:hover:not(.active) {
   background-color: turquoise;
 }
 
-li a.active {
+.NBN a.active {
   color:turquoise;
   background-color: #4CAF50;
 }
 
-/*____________________SLIDESHOW__________________*/
+/*____________________HomePage_SLIDESHOW__________________*/
 .mySlides { 
   width: 100%; 
   height: 50px; 
@@ -39,29 +39,23 @@ li a.active {
   border-width: thick; 
 }
 /*_____________________HOMEPAGE_CONTENT____________________*/
-h2 {
+.HPH {
   float: none;
   text-align: left;
   color: teal;
   font-style: initial;
 }
 
-p {
+.HPWP {
   text-align: left;
   text-align-last: left;
-}
-
-ul {
-  text-align: left;
-  border-style: solid;
-  border-color: teal;
-  background-color: teal;
 }
 
 .OHrs {
   text-align: left;
   border-style: solid;
   border-color: steelblue;
+  background-color: steelblue;
 }
 
 /*____________________Home_Page_Imgs_____________________*/
@@ -72,7 +66,7 @@ ul {
   background-color: teal;
 }
 
-.MP {
+.MSS {
   width: 45%;
   height: 25px;
   border-style: solid;
@@ -80,7 +74,76 @@ ul {
 }
 
 
-/*____________________About_Us_Imgs________________________*/
+/*____________________About_Us_Content________________________*/
+
+.AUtitle {
+  float:none;
+  text-align: right;
+  text-decoration: teal;
+}
+
+.AUP {
+  text-align: right;
+
+}
+
+.AUtitle2 {
+  float:none;
+  text-align: left;
+  text-decoration: black;
+}
+
+.AUP2 {
+  text-align: left;
+  border-style: solid;
+  border-color: darkcyan;
+  background-color: darkcyan;
+}
+
+
+/*_________________About_Us_IMG___________________________________*/
+
+  .HPI {
+    border-style:ridge;
+    border-color:teal;
+    background-color:black
+  }
+
+  .MSS {
+    width: 45%;
+    height: 25%;
+    border-style: solid;
+    border-color: black;
+  }
+
+/*________________Contact Us Content______________________________*/ 
+
+ul Hours Open{
+  text-align: left;
+  border-style: solid;
+  border-color: teal;
+  background-color:teal;
+}
+
+ul How to contact us{
+  text-align: left;
+  border-style: solid;
+  border-color:teal;
+  background-color:teal;
+}
+
+/*_____________________________Contact_US_IMG________________________*/
+
+
+
+
+
+
+
+
+
+
+/*____________________________MENU_CONTENT_________________________________*/
 
 
 
@@ -92,4 +155,4 @@ ul {
 
 
 
-/*_________________
+/*_____________________________MENU_img_____________________________________*/
