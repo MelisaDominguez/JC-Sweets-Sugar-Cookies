@@ -32,11 +32,8 @@
 
 /*____________________HomePage_SLIDESHOW__________________*/
 .mySlides { 
-  width: 100%; 
-  height: 50px; 
-  border: teal; 
-  border-style: solid; 
-  border-width: thick; 
+  width: 1500px; 
+  height: 100pxpx; 
 }
 /*_____________________HOMEPAGE_CONTENT____________________*/
 .HPH {
