@@ -6,22 +6,39 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-     
 <body>
-        <ul div class="navbar">
-            <li class="NBN"><a href="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\home page.html">Home</a></li>
-            <li class="NBN"><a href="c:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-CookiCes\menu page.html">Menu</a></li>
-            <li class="NBN"><a href="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\contact us page.html">About Us</a></li>
-            <li class="NBN"><a href="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\about us page.html">Contact Us</a></li>
-        </ul>
-    <section>
-            <img class="mySlides" src="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\122996294_3206478539475265_3086995165308186691_o.jpg">
-            <img class="mySlides" src="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\ss2.jpg">
-            <img class="mySlides" src="C:\Users\melisa.dominguez\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\67946510_2176021462520983_5491065183415566336_o.jpg">
-            <img class="mySlides" src="C:\Users\melisa.dominguez\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\93590073_2685667941556330_4019800827383250944_o.jpg">
-            <img class="mySlides" src="C:\Users\melisa.dominguez\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\60334915_2017620235027774_6707656326895370240_o.jpg">
-            <img class="mySlides" src="C:\Users\melisa.dominguez\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\54514293_1932621353527663_4381374255514779648_o.jpg">
-    </section>
+<div class="header">
+	<div id="mySidenav" class="sidenav">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  		<a class="navlink" href="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\home page.html">Home</a>
+  		<a class="navlink" href="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\menu page.html">Menu</a>
+  		<a class="navlink" href="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\about us page.html">About Us</a>
+  		<a class="navlink" href="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\contact us page.html">Contact Us</a>
+	</div>
+</div>
+<div class="navbtn">
+	<span style="font-size:40px;cursor:pointer" onclick="openNav()"> &#9776; </span>
+</div>
+<img class="navlogoimg" src="file:///C:/Users/melis/Documents/newlogoimg.jpg" style="width:150px;height:100px;">
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<!--------------------------- SlideShow ----------------------->
+<div class="slideshow" style="max-width:100%">
+        <img class="mySlides" src="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\122996294_3206478539475265_3086995165308186691_o.jpg" style="width:100%;height: 800px;">
+        <img class="mySlides" src="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\ss2.jpg" style="width:100%;height: 800px;">
+        <img class="mySlides" src="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\121675691_3177457495710703_4725057364565004162_o.jpg" style="width:100%;height: 800px;">
+        <img class="mySlides" src="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\119497676_3085809914875462_5141127787707670310_o.jpg" style="width:100%;height: 800px;">
+        <img class="mySlides" src="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\117397270_2979721618817626_6741818860294475836_o.jpg" style="width:100%;height: 800px;">
+        <img class="mySlides" src="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\58939865_1986149884841476_4255368109847740416_o.jpg"  style="width:100%;height: 800px;">
+</div>
 
     <script>
         var myIndex = 0;
@@ -40,66 +57,74 @@
         }
     </script>
 
-    <div class="HPcontent">
-        <h2 class="HPH">
-            The Begining of a Sweet Journey
-        </h2> 
-
-        <p class="HPWP">
-            A journey to make a “little extra Christmas Cash” turned into a pretty “sweet” adventure!  
+<div class="parallax"></div>
+<!--------------------------- About Us ----------------------->
+<main>
+    <h1 class="homeinfotitle">JC Sweets Sugar Cookies</h1>  
+    <div class="homeinfosection">
+	    <p class="homeinfo">
+            A journey to make a “little extra Christmas Cash” turned into a pretty “sweet” adventure! 
             I had no idea people would love these cookies the way they have (& for that I’m so thankful!) 
             From intricate logo work to basic birthday cakes, I am happy to learn (or at least try) to conquer 
             any design! This has been a very challenging (at times), yet rewarding past few months and I look 
             forward to watching it grow even more in the future.If I can help you bring your cookie ideas to life, 
             please let me know. 
         </p>
+    </div>
+    <div class="homeinfosection2">
+        <img class="homeimginfo" src="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\54514293_1932621353527663_4381374255514779648_o.jpg">
+    </div>
+</main>
+<div class="parallax"></div>
 
-        <div class="HPI">
-            <a href=""></a>
+<!--------------------------- Site footer ----------------------->
+<footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 col-md-3">
+          <h6>Categories</h6>
+          <ul class="footer-links">
+            <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+            <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+            <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+            <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+            <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+            <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+          </ul>
         </div>
 
-        <ul class="OHrs">
-            <li>Monday: Open 24 hrs</li>
-            <li>Tuesday: Open 24 hrs</li>
-            <li>Wednesday: Open 24 hrs</li>
-            <li>Thursday: Open 24 hrs</li>
-            <li>Friday: Open 24 hrs</li>
-            <li>Saterday: Open 24 hrs</li>
-            <li>Sunday: Open 24 hrs</li>
-        </ul> 
-
-        <section class="MP">
-            <img class="MSS" src="">
-            <img class="MSS" src="">
-            <img class="MSS" src="">
-            <img class="MSS" src="">
-            <img class="MSS" src="">
-            <img class="MSS" src="">
-        </section>
-
-        <script>
-            var myIndex = 0;
-            carousel();
-    
-            function carousel() {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            myIndex++;
-            if (myIndex > x.length) {myIndex = 1}
-            x[myIndex-1].style.display = "block";
-            setTimeout(carousel, 4000);
-            }
-        </script>
-
-        
-
+        <div class="col-xs-6 col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="http://scanfcode.com/about/">About Us</a></li>
+            <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+            <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+            <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+       <a href="#">Scanfcode</a>.
+          </p>
+        </div>
 
-
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+             
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
 
 </body>
 
-</html>
+</html> 
