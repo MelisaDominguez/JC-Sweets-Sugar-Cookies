@@ -2,7 +2,7 @@ body, html {
   height: 100%;
 }
 .header {
-	background-color:#b3e6b3;
+	background-color: rgb(30, 155, 155);
     margin: -8px -8px -8px -8px;
     z-index: -1;
     height: 100px;
@@ -25,7 +25,7 @@ body, html {
   z-index: 3;
   top: 0;
   left: 0;
-  background-color: #58BAA1;
+  background-color: #e279e2;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -99,6 +99,8 @@ body, html {
     height: 350px;
     width: 350px;
     margin-left: 200px;
+    border: solid;
+    border-color: #e279e2;
 }
 .parallax {
   /* The image used */
@@ -121,13 +123,39 @@ body, html {
   }
 }
 
+.homeopenhrs {
+  border-style: solid;
+  border-color: #e279e2;
+  background-color: #e279e2;
+}
+
+.homescedule {
+  margin-right: 20%;
+  padding: 10px;
+  text-align: justify;
+}
+
+.homesceduleIMG {
+  width: 50%;
+  float: left;
+}
+
+.homesceduleimginfo {
+  margin-top: -35;
+  height: 350px;
+  width: 350px;
+  margin-left: 100px;
+  border-style: solid;
+  border-color: #e279e2;
+}
+
 .site-footer
 {
-  background-color:#26272b;
+  background-color:rgb(30, 155, 155);
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
-  color:#737373;
+  color:white;
 }
 .site-footer hr
 {
@@ -331,7 +359,7 @@ ul Hours Open{
   background-color:teal;
 }
 
-ul How to contact us{
+ul How to contact us{ 
   text-align: left;
   border-style: solid;
   border-color:teal;
