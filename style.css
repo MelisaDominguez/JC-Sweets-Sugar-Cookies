@@ -352,18 +352,20 @@ body, html {
 
 /*________________Contact Us Content______________________________*/ 
 
-ul Hours Open{
+.ulavailable {
   text-align: left;
   border-style: solid;
   border-color: teal;
   background-color:teal;
+  background: transparent;
 }
 
-ul How to contact us{ 
-  text-align: left;
+.ulcontactus { 
+  text-align: right;
   border-style: solid;
   border-color:teal;
   background-color:teal;
+  background: transparent;
 }
 
 /*_____________________________Contact_US_IMG________________________*/
