@@ -1,4 +1,4 @@
-body, html {
+body, html {     
   height: 100%;
 }
 .header {
@@ -95,7 +95,7 @@ body, html {
 }
 
 .homeimginfo {
-	margin-top: -26.5%;
+	  margin-top: -26.5%;
     height: 350px;
     width: 350px;
     margin-left: 200px;
@@ -306,13 +306,18 @@ body, html {
   }
 }
 
-
-
 /*____________________About_Us_Content________________________*/
+
+.aboutusimg1 {
+  margin-top: -26.5%;
+  height: 350px;
+  width: 350;
+  margin-left: 200px;
+}
 
 .AUtitle {
   float:none;
-  text-align: right;
+  text-align: center;
   text-decoration: teal;
 }
 

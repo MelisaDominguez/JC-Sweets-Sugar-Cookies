@@ -7,13 +7,89 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="navbar">
-        <a class="active" href="C:\Users\melisa.dominguez\Documents\GitHub\JC-Sweets-Sugar-Cookies\home page.html"></i> Home</a>
-        <a href="C:\Users\melisa.dominguez\Documents\GitHub\JC-Sweets-Sugar-Cookies\menu page.html"></i> Menu</a>
-        <a href="C:\Users\melisa.dominguez\Documents\GitHub\JC-Sweets-Sugar-Cookies\about us page.html"></i> About Us</a>
-        <a href="C:\Users\melisa.dominguez\Documents\GitHub\JC-Sweets-Sugar-Cookies\contact us page.html"></i> Contact Us</a>
+<!---------------------------------------header--------------------------->
+    <div class="header">
+        <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a class="navlink" href="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\home page.html">Home</a>
+              <a class="navlink" href="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\menu page.html">Menu</a>
+              <a class="navlink" href="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\about us page.html">About Us</a>
+              <a class="navlink" href="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\contact us page.html">Contact Us</a>
+        </div>
     </div>
+  
+    <div class="navbtn">
+        <span style="font-size:40px;cursor:pointer" onclick="openNav()"> &#9776; </span>
+    </div>
+  
+    <img class="navlogoimg" src="file:///C:/Users/melis/Documents/newlogoimg.jpg" style="width:150px;height:100px;">
+    
+    <script>
+      function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      }
+  
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+<!------------------------------    ???      ------------------------------>
 
+
+
+
+
+
+
+<!--------------------------------------footer------------------------------>
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6 col-md-3">
+        <h6>Categories</h6>
+        <ul class="footer-links">
+          <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+          <li><a href="http://scanfcode.com/category/front-end-development/">UI Design</a></li>
+          <li><a href="http://scanfcode.com/category/back-end-development/">PHP</a></li>
+          <li><a href="http://scanfcode.com/category/java-programming-language/">Java</a></li>
+          <li><a href="http://scanfcode.com/category/android/">Android</a></li>
+          <li><a href="http://scanfcode.com/category/templates/">Templates</a></li>
+        </ul>
+      </div>
+
+      <br>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="">About Us</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href=""></a></li>
+          <li><a href="">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+        <a href="#">Scanfcode</a>.
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+          <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+           
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
     
 </body>
 </html>
