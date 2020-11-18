@@ -2,7 +2,7 @@ body, html {
   height: 100%;
 }
 .header {
-	background-color: rgb(30, 155, 155);
+	background-color: rgb(32, 167, 144);
     margin: -8px -8px -8px -8px;
     z-index: -1;
     height: 100px;
@@ -95,16 +95,16 @@ body, html {
 }
 
 .homeimginfo {
-	  margin-top: -26.5%;
+	  margin-top: -65%;
     height: 350px;
     width: 350px;
-    margin-left: 200px;
+    margin-left: 250px;
     border: solid;
     border-color: #e279e2;
 }
 .parallax {
   /* The image used */
-  background-image: url('https://media.giphy.com/media/drRqSWITkxpBluGWWq/giphy.gif');
+  background-image: url('https://media.giphy.com/media/XmZQ1gWRYmONPXx6Tc/giphy.gif');
 
   /* Full height */
   height: 100%; 
@@ -121,6 +121,14 @@ body, html {
   .parallax {
     background-attachment: scroll;
   }
+}
+
+.homeopenhours {
+  margin-top: 45px;
+  margin-bottom: 10px;
+  color: teal;
+  text-align: center;
+  font-family: lucida handwriting;
 }
 
 .homeopenhrs {
