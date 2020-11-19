@@ -318,6 +318,9 @@ body, html {
     font-weight:600
   }
 }
+h1{
+  text-shadow: 2px 2px;
+}
 
 /*____________________About_Us_Content__________________________________________________*/
 
@@ -408,19 +411,67 @@ body, html {
   background-color: mediumpurple;
 }
 
+.contactemail {
+  margin-top: -50;
+  margin-left: 30%;
+  border-style: solid;
+  background: transparent;
+  background-color: rgb(32, 167, 144);
+  width: 350px;
+}
 
+.email {
+  margin-top: -55;
+  box-align: center;
+  font-family: lucida handwriting;
+}
 
+.contactmessage {
+  margin-top: -50;
+  margin-right: 30%;
+  border-style: solid;
+  background: transparent;
+  background-color: rgb(32, 167, 144);
+  width: 350px;
+}
 
+.message {
+  margin-top: -55;
+  box-align: center;
+  font-family: lucida handwriting;
+}
 
+.contactfacebook {
+  margin-top: -80;
+  margin-left: 30%;
+  border-style: solid;
+  background: transparent;
+  background-color: rgb(32, 167, 144);
+  width: 350px;
+}
 
+.facebook {
+  margin-top: -84;
+  text-align: center;
+  font-family: lucida handwriting;
+}
 
+.contactinsta {
+  margin-top: -80;
+  margin-right: 30%;
+  border-style: solid;
+  background: transparent;
+  background-color: rgb(32, 167, 144);
+  width: 350px;
+}
 
+.insta {
+  margin-top: -84;
+  text-align: center;
+  font-family: lucida handwriting;
+}
 
-
-
-
-
-
+/*_____________________________MENU_img_____________________________________*/
 
 
 
@@ -440,4 +491,3 @@ body, html {
 
 
 
-/*_____________________________MENU_img_____________________________________*/
