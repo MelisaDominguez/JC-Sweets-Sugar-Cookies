@@ -389,6 +389,25 @@ body, html {
   position: relative; 
 }
 
+.contaactuswelcometext {
+  text-align: center;
+  color: white;
+  font-family: lucida handwriting;
+}
+
+.scedulebox {
+  box-align: right;
+  width: 50px;
+  height: 50px;
+}
+
+.ulavailable {
+  text-align: center;
+  border-style: solid;
+  border-color: mediumpurple;
+  background-color: mediumpurple;
+}
+
 
 
 
