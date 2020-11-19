@@ -380,30 +380,28 @@ body, html {
 
 /*________________________________Contact Us Content______________________________*/ 
 
-.contactusimgsection {
-  margin-top: -2px;
-  margin-bottom: 40px;
-  width: 100%;
+.contactusmainimg {
+  background: url(C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\122312384_3191180521005067_4237120046530610541_o.jpg);
+  height: 100vh;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative; 
 }
 
 
-.ulavailable {
-  text-align: left;
-  border-style: solid;
-  border-color: teal;
-  background-color:teal;
-  background: transparent;
-}
 
-.ulcontactus { 
-  text-align: right;
-  border-style: solid;
-  border-color:teal;
-  background-color:teal;
-  background: transparent;
-}
 
-/*_____________________________Contact_US_IMG________________________*/
+
+
+
+
+
+
+
+
+
+
 
 
 
