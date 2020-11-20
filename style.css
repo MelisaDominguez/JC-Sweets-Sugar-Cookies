@@ -318,9 +318,6 @@ body, html {
     font-weight:600
   }
 }
-h1{
-  text-shadow: 2px 2px;
-}
 
 /*____________________About_Us_Content__________________________________________________*/
 
@@ -471,23 +468,84 @@ h1{
   font-family: lucida handwriting;
 }
 
-/*_____________________________MENU_img_____________________________________*/
-
-
-
-
-
-
-
 /*____________________________MENU_CONTENT_________________________________*/
 
+.birthdaybox { 
+  margin-top: -50;
+  margin-left: 30%;
+  border-style: solid;
+  border-color: rgb(32, 167, 144);
+  background: transparent;
+  background-color: rgb(32, 167, 144);
+}
 
+.birthday {
+  margin-top: -55px;
+  text-align: center;
+  font-family: lucida handwriting;
+  color: rgb(32, 167, 144);
+}
 
+.weddingbox {
+  margin-top:-50;
+  margin-right: 30%;
+  border-style: solid;
+  border-color: rgb(32, 167, 144);
+  background: transparent;
+  background-color: rgb(32, 167, 144);
+}
 
+.wedding {
+  margin-top: -55px;
+  text-align: center;
+  font-family: lucida handwriting;
+  color: rgb(32, 167, 144);
+}
 
+.characterbox {
+  margin-top: -90;
+  margin-left: 30%;
+  border-style: solid;
+  border-color:  rgb(32, 167, 144);
+  background: transparent;
+  background-color: rgb(32, 167, 144) ;
+}
 
+.chracter {
+  margin-top: -94;
+  text-align: center;
+  font-family: lucida handwriting;
+  color: rgb(32, 167, 144);
+}
 
+.babybox {
+  margin-top: -90;
+  margin-right: 30%;
+  border-style: solid;
+  border-color: rgb(32, 167, 144);
+  background: transparent;
+  background-color: rgb(32, 167, 144);
+}
 
+.baby {
+  margin-top: -94;
+  text-align: center;
+  font-family: lucida handwriting;
+  color: rgb(32, 167, 144);
+}
 
+/*_________________________Gifting_________________________________________*/
 
+.gifting-link{
+  background-color: rgb(32, 167, 144); 
+  color:black;
+  border-style:solid;
+  font-family:arial;
+  font-size:18px;
+}
+
+.gifting-text{
+  color:black;
+  font-size:20px;
+}
 
