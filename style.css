@@ -97,6 +97,12 @@ body, html {
     width: 100%;
   }
 }
+
+.jctitle {
+  font-family:  lucida handwriting;
+  color: rgb(32, 167, 144);
+}
+
 .homeimginfo {
     width: 40%;
     margin-left: auto;
@@ -134,13 +140,13 @@ body, html {
   font-family: lucida handwriting;
 }
 
-.homeopenhrs {
+.homescedule {
   border-style: solid;
   border-color: #e279e2;
+  width: 500px;
   border-width: 25px;
   background-color: #e279e2;
 }
-
 
 /*-----------------------footer---------------------------------------------------------------*/
 
@@ -318,26 +324,11 @@ body, html {
   width: 100%;
 }
 
-.aboutusimg1 {
-  margin-top: -26.5%;
-  height: 350px;
-  width: 350;
-  margin-left: 200px;
-}
 
 .aboutustitle {
   text-align: center;
+  font-family:  lucida handwriting;
   color: rgb(32, 167, 144);
-  font-family: lucida handwriting; 
-}
-
-.aboutusjourney {
-  text-align: right;
-  margin-right: 20%;
-  padding: 10px;
-  font-size: 20px;
-  color: black;
-  text-align: justify;
 }
 
 .aboutustitle2 {
@@ -346,10 +337,27 @@ body, html {
   font-family: lucida handwriting;
 }
 
-.aboutuspeople {
-  text-align: right;
+.aboutusimg {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: solid;
+  border-color: #e279e2;
 }
 
+.aboutuspeople {
+  color:black;
+}
+
+.aboutuspeopleimg {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: solid;
+  border-color: #e279e2;
+}
 
 /*________________________________Contact Us Content______________________________*/ 
 
@@ -364,78 +372,6 @@ body, html {
   font-family: lucida handwriting;
 }
 
-.scedulebox {
-  box-align: right;
-  width: 50px;
-  height: 50px;
-}
-
-.ulavailable {
-  text-align: center;
-  border-style: solid;
-  border-color: mediumpurple;
-  background-color: mediumpurple;
-}
-
-.contactemail {
-  margin-top: -50;
-  margin-left: 30%;
-  border-style: solid;
-  background: transparent;
-  background-color: rgb(32, 167, 144);
-  width: 350px;
-}
-
-.email {
-  margin-top: -55;
-  box-align: center;
-  font-family: lucida handwriting;
-}
-
-.contactmessage {
-  margin-top: -50;
-  margin-right: 30%;
-  border-style: solid;
-  background: transparent;
-  background-color: rgb(32, 167, 144);
-  width: 350px;
-}
-
-.message {
-  margin-top: -55;
-  box-align: center;
-  font-family: lucida handwriting;
-}
-
-.contactfacebook {
-  margin-top: -80;
-  margin-left: 30%;
-  border-style: solid;
-  background: transparent;
-  background-color: rgb(32, 167, 144);
-  width: 350px;
-}
-
-.facebook {
-  margin-top: -84;
-  text-align: center;
-  font-family: lucida handwriting;
-}
-
-.contactinsta {
-  margin-top: -80;
-  margin-right: 30%;
-  border-style: solid;
-  background: transparent;
-  background-color: rgb(32, 167, 144);
-  width: 350px;
-}
-
-.insta {
-  margin-top: -84;
-  text-align: center;
-  font-family: lucida handwriting;
-}
 
 /*____________________________MENU_CONTENT_________________________________*/
 
