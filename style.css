@@ -5,7 +5,7 @@ body, html {
 /*_________________________________________________header_______________________________________*/
 
 .header {
-	background-color: #28D7AB;
+	background-color: rgb(32, 167, 144)e;
     margin: -8px -8px -8px -8px;
     z-index: -1;
     height: 100px;
@@ -366,13 +366,55 @@ body, html {
   height: 800px;
 }
 
-.contaactuswelcometext {
+.contactuswelcometext {
   text-align: center;
   color: white;
   font-family: lucida handwriting;
 }
 
+.emailimg {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
+.contactemail {
+  text-align: center;
+}
+
+.contactmessage {
+  text-align: center;
+}
+
+.messageimg {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.contactfacebook {
+  text-align: center;
+}
+
+.facebookimg {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.contactinsta {
+  text-align: center;
+}
+
+.instaimg {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 /*____________________________MENU_CONTENT_________________________________*/
 
 .menumainimg {
@@ -381,8 +423,6 @@ body, html {
 }
 
 .birthdaybox { 
-  margin-top: -50;
-  margin-left: 30%;
   border-style: solid;
   border-color: rgb(32, 167, 144);
   background: transparent;
@@ -390,15 +430,12 @@ body, html {
 }
 
 .birthday {
-  margin-top: -55px;
   text-align: center;
   font-family: lucida handwriting;
   color: rgb(32, 167, 144);
 }
 
 .weddingbox {
-  margin-top:-50;
-  margin-right: 30%;
   border-style: solid;
   border-color: rgb(32, 167, 144);
   background: transparent;
@@ -406,31 +443,25 @@ body, html {
 }
 
 .wedding {
-  margin-top: -55px;
   text-align: center;
   font-family: lucida handwriting;
   color: rgb(32, 167, 144);
 }
 
 .characterbox {
-  margin-top: -90;
-  margin-left: 30%;
   border-style: solid;
   border-color:  rgb(32, 167, 144);
   background: transparent;
   background-color: rgb(32, 167, 144) ;
 }
 
-.chracter {
-  margin-top: -94;
+.characters {
   text-align: center;
   font-family: lucida handwriting;
   color: rgb(32, 167, 144);
 }
 
 .babybox {
-  margin-top: -90;
-  margin-right: 30%;
   border-style: solid;
   border-color: rgb(32, 167, 144);
   background: transparent;
@@ -438,13 +469,18 @@ body, html {
 }
 
 .baby {
-  margin-top: -94;
   text-align: center;
   font-family: lucida handwriting;
   color: rgb(32, 167, 144);
 }
 
 /*_________________________Gifting_________________________________________*/
+
+.giftingh1 {
+  text-align: center;
+  color: rgb(32, 167, 144);
+  font-family: lucida handwriting; 
+}
 
 .gifting-link{
   background-color: rgb(32, 167, 144); 
@@ -455,7 +491,8 @@ body, html {
 }
 
 .gifting-text{
-  color:black;
-  font-size:20px;
+  text-align: center;
 }
 
+
+/*________________________________Review Page________________________________________*/
