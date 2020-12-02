@@ -5,7 +5,7 @@ body, html {
 /*_________________________________________________header_______________________________________*/
 
 .header {
-	background-color: rgb(32, 167, 144)e;
+	background-color:#28D7AB;
     margin: -8px -8px -8px -8px;
     z-index: -1;
     height: 100px;
@@ -357,6 +357,14 @@ body, html {
   display: block;
   border: solid;
   border-color: #e279e2;
+}
+
+.stars{
+  align:left;
+}
+
+.shirts{
+  align:right;
 }
 
 /*________________________________Contact Us Content______________________________*/ 
