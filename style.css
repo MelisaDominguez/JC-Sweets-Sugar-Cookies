@@ -360,11 +360,17 @@ body, html {
 }
 
 .stars{
-  align:left;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .shirts{
-  align:right;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 /*________________________________Contact Us Content______________________________*/ 
@@ -430,6 +436,13 @@ body, html {
   height: 800px;
 }
 
+
+.menutitle {
+  text-align: center;
+  font-family: lucida handwriting;
+  color:  rgb(32, 167, 144);
+}
+
 .birthdaybox { 
   border-style: solid;
   border-color: rgb(32, 167, 144);
@@ -437,7 +450,7 @@ body, html {
   background-color: rgb(32, 167, 144);
 }
 
-.birthday {
+.birthdays {
   text-align: center;
   font-family: lucida handwriting;
   color: rgb(32, 167, 144);
@@ -450,7 +463,7 @@ body, html {
   background-color: rgb(32, 167, 144);
 }
 
-.wedding {
+.weddings {
   text-align: center;
   font-family: lucida handwriting;
   color: rgb(32, 167, 144);
@@ -484,6 +497,7 @@ body, html {
 
 /*_________________________Gifting_________________________________________*/
 
+
 .giftingh1 {
   text-align: center;
   color: rgb(32, 167, 144);
@@ -494,7 +508,7 @@ body, html {
   background-color: rgb(32, 167, 144); 
   color:black;
   border-style:solid;
-  font-family:arial;
+  font-family:lucida handwriting;
   font-size:18px;
 }
 
