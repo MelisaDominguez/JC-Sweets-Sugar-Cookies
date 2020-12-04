@@ -436,12 +436,7 @@ body, html {
   height: 800px;
 }
 
-
-.menutitle {
-  text-align: center;
-  font-family: lucida handwriting;
-  color:  rgb(32, 167, 144);
-}
+} 
 
 .birthdaybox { 
   border-style: solid;
