@@ -458,7 +458,7 @@ body, html {
 .birthdays {
   text-align: center;
   font-family: lucida handwriting;
-  color: rgb(32, 167, 144);
+  color: black;
 }
 
 .birthdayimg {
@@ -478,7 +478,14 @@ body, html {
 .weddings {
   text-align: center;
   font-family: lucida handwriting;
-  color: rgb(32, 167, 144);
+  color:black;
+}
+
+ .weddingimg {
+  width: 40%;
+  margin-left: auto;
+  margin-right:auto;
+  display: block;
 }
 
 .characterbox {
@@ -491,7 +498,14 @@ body, html {
 .characters {
   text-align: center;
   font-family: lucida handwriting;
-  color: rgb(32, 167, 144);
+  color: black;
+}
+
+.characterimg {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; 
 }
 
 .babybox {
@@ -504,8 +518,36 @@ body, html {
 .baby {
   text-align: center;
   font-family: lucida handwriting;
-  color: rgb(32, 167, 144);
+  color: black;
 }
+
+.babyimg {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.otherbox {
+  border-style: solid;
+  border-color: rgb(32, 167, 144);
+  background: transparent;
+  background-color: rgb(32, 167, 144);
+}
+
+.other {
+  text-align: center;
+  font-family: lucida handwriting;
+  color: black;
+}
+
+.otherimg {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+  
 
 /*_________________________Gifting_________________________________________*/
 
