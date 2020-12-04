@@ -104,12 +104,12 @@ body, html {
 }
 
 .homeimginfo {
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border: solid;
-    border-color: #e279e2;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: solid;
+  border-color: #e279e2;
 }
 .parallax {
   /* The image used */
@@ -445,7 +445,7 @@ body, html {
 .menuparagraph {
   text-align: center;
   font-family: italic;
-  color: black;
+  color: black; 
 }
 
 .birthdaybox { 
@@ -459,6 +459,13 @@ body, html {
   text-align: center;
   font-family: lucida handwriting;
   color: rgb(32, 167, 144);
+}
+
+.birthdayimg {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .weddingbox {
