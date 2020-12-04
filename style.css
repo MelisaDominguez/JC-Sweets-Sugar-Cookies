@@ -432,11 +432,21 @@ body, html {
 /*____________________________MENU_CONTENT_________________________________*/
 
 .menumainimg {
-  width: 100%;
+  width: 100%; 
   height: 800px;
+}  
+
+.menutitle {
+  text-align: center;
+  font-family: lucida handwriting;
+  color: rgb(32, 167, 144);
 }
 
-} 
+.menuparagraph {
+  text-align: center;
+  font-family: italic;
+  color: black;
+}
 
 .birthdaybox { 
   border-style: solid;
