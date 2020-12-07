@@ -147,6 +147,7 @@ body, html {
   width: 500px;
   border-width: 25px;
   background-color: #e279e2;
+ box-align: left; 
 }
 
 /*-----------------------footer---------------------------------------------------------------*/
