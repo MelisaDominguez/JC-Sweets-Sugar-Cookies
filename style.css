@@ -147,7 +147,7 @@ body, html {
   width: 500px;
   border-width: 25px;
   background-color: #e279e2;
- box-align: left; 
+  box-align: center; 
 }
 
 /*-----------------------footer---------------------------------------------------------------*/
@@ -554,7 +554,19 @@ body, html {
   margin-right: auto;
   display: block;
 }
+
+.menuorderbutton {
+  align-items: center;
+}
   
+.menuorderlink {
+  border-style: solid;
+  color: rgb(32, 167, 144);
+  background-color: rgb(32, 167, 144);
+  font-family: lucida handwriting;
+  text-align: center;
+  text-decoration: none;
+}
 
 /*_________________________Gifting_________________________________________*/
 
@@ -586,5 +598,14 @@ body, html {
   text-align: center;
 }
 
+.giftslideshow {
+  margin-top: -50;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.giftimg {
+  display: none;
+}
 
 /*________________________________Review Page________________________________________*/

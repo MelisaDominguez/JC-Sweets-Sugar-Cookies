@@ -13,12 +13,12 @@
     <div class="header">
 	  <div id="mySidenav" class="sidenav">
   		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  		  <a class="navlink" href="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\index.html">Home</a>
-        <a class="navlink" href="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\menu page.html">Menu</a>
-        <a class="navlink" href="C:\Users\melisa.dominguez\Documents\GitHub\JC-Sweets-Sugar-Cookies\gift page.html">Gifting</a>
-        <a class="navlink" href="C:\Users\melisa.dominguez\Documents\GitHub\JC-Sweets-Sugar-Cookies\reviews.html">Reviews</a>
-  		  <a class="navlink" href="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\about us page.html">About Us</a>
-  		  <a class="navlink" href="C:\Users\melis\Documents\GitHub\JC-Sweets-Sugar-Cookies\contact us page.html">Contact Us</a>
+  		  <a class="navlink" href="index.html">Home</a>
+        <a class="navlink" href="menu_page.html">Menu</a>
+        <a class="navlink" href="gift_page.html">Gifting</a>
+        <a class="navlink" href="reviews.html">Reviews</a>
+  		  <a class="navlink" href="about_us_page.html">About Us</a>
+  		  <a class="navlink" href="contact_us_page.html">Contact Us</a>
 	  </div>
   </div>
 
@@ -57,7 +57,37 @@
       <a class="gifting-link" href="http://www.facebook.com/jcsweetssugarcookies"> Gift Here</a>
     </div>
 
-    <div class="parallax"></div>
+  <div class="parallax"></div>
+
+<!-----------------------------------Slideshow------------------------------------------------->
+
+  <div class="giftslideshow" style="max-width:100%">
+    <img class="giftimg" src="C:\Users\melisa.dominguez\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\119682508_3076635315792922_5379537301644871270_o (1).jpg">
+    <img class="giftimg" src="C:\Users\melisa.dominguez\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\58939865_1986149884841476_4255368109847740416_o.jpg">
+    <img class="giftimg" src="C:\Users\melisa.dominguez\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\123546560_3220842254705560_8263699172828730255_o.jpg">
+    <img class="giftimg" src="C:\Users\melisa.dominguez\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\123647817_363968818187897_5171505818999286234_n.jpg">
+    <img class="giftimg" src="C:\Users\melisa.dominguez\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\93590073_2685667941556330_4019800827383250944_o.jpg">
+    <img class="giftimg" src="C:\Users\melisa.dominguez\Documents\GitHub\JC-Sweets-Sugar-Cookies\img\52788291_1902510803205385_9027163607057563648_o.jpg">
+  </div>
+
+  <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 4000);
+    }
+</script>
+
+<div class="parallax"></div>
 
 <!--------------------------- Site footer ---------------------------------------------->
 <footer class="site-footer">
