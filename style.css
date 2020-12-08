@@ -609,3 +609,9 @@ body, html {
 }
 
 /*________________________________Review Page________________________________________*/
+
+.reviews{
+  font-size:16px;
+  font-family:Arial;
+  border-style:solid;
+}
