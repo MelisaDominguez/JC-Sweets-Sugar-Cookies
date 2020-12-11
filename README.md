@@ -18,8 +18,8 @@ Our goal when making this website was to make a new full functioning website; wh
 Our website consists of multiple things, however our most notable features are:
 
 <ul>
-    <li></li>
-    <li></li>
+    <li>link to order on the gift page</li>
+    <li>slide show of products</li>
     <li></li>
     <li></li>
     <li></li>
