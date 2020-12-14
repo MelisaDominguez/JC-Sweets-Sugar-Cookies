@@ -382,17 +382,10 @@ body, html {
   height: 800px;
 }
 
-.contactuswelcometext {
+.contactush1 {
   text-align: center;
   color: white;
   font-family: lucida handwriting;
-}
-
-.emailimg {
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 .contactemail {
@@ -403,34 +396,14 @@ body, html {
   text-align: center;
 }
 
-.messageimg {
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
 .contactfacebook {
   text-align: center;
-}
-
-.facebookimg {
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 .contactinsta {
   text-align: center;
 }
 
-.instaimg {
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
 /*____________________________MENU_CONTENT_________________________________*/
 
 .menumainimg {
