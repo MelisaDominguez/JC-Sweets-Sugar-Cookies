@@ -208,7 +208,7 @@ body, html {
 {
   display:inline-block
 }
-.site-footer .social-icons
+.site-footer .social-icons 
 {
   text-align:right
 }
@@ -326,7 +326,6 @@ body, html {
   width: 100%;
 }
 
-
 .aboutustitle {
   text-align: center;
   font-family:  lucida handwriting;
@@ -422,12 +421,6 @@ body, html {
   color: black;
 }
 
-.menuparagraph {
-  text-align: center;
-  font-family: italic;
-  color: black; 
-}
-
 .birthdaybox { 
   border-style: solid;
   border-color: #28D7AB;
@@ -508,6 +501,45 @@ body, html {
   display: block;
 }
 
+.graduationbox {
+  border-style:solid;
+  border-color:#28D7AB;
+  background: transparent;
+  background-color:#28D7AB;
+}
+
+.graduation {
+  text-align: center;
+  font-family: lucida handwriting;
+  color: black;
+}
+
+.graduationimg {
+  width: 40%;
+  margin-left:auto;
+  display:black;
+}
+
+.holidaybox {
+  border-style: solid;
+  border-color:#28D7AB;
+  background: transparent;
+  background-color:#28D7AB;
+}
+
+.holiday{
+    text-align:center;
+    font-family: lucida handwriting;
+    color:black;
+}
+
+.holidayimg{
+    width: 40%;
+    margin-left:auto;
+    margin-right:auto;
+    display:black;
+}
+  
 .otherbox {
   border-style: solid;
   border-color:#28D7AB;
@@ -583,12 +615,17 @@ body, html {
 
 /*________________________________Review Page________________________________________*/
 
-.reviews{
+.reviewstitle {
   font-size:16px;
-  font-family:Arial;
+  font-family:lucida handwriting;
   border-style:solid;
+  text-align:center;
 }
 
-.fb-post{
-  text-align:center;
+.reviewb {
+  background-color: rgb(32, 167, 144);
+  text-decoration: black;
+  border-style: solid;
+  font-family: lucida handwriting;
+  text-align: center;
 }
