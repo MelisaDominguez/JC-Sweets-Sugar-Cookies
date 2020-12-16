@@ -172,7 +172,87 @@ body, html {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+} /* Should be removed. Only for demonstration */
+.site-footer
+{
+  background-color:rgb(32, 167, 144);
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:white;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons 
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
 }
 
 .columnfooter2 {
@@ -248,7 +328,6 @@ body, html {
 .aboutusinfo {
   width: 100%;
 }
-
 
 .aboutustitle {
   text-align: center;
@@ -353,17 +432,11 @@ body, html {
   list-style-type: none;
   font-family: lucida Sans Regular;
 }
-.contactuswelcometext {
+.contactuswelcometext {}
+.contactush1 {
   text-align: center;
   color: white;
   font-family: lucida handwriting;
-}
-
-.emailimg {
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 .contactemail {
@@ -374,34 +447,14 @@ body, html {
   text-align: center;
 }
 
-.messageimg {
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
 .contactfacebook {
   text-align: center;
-}
-
-.facebookimg {
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 .contactinsta {
   text-align: center;
 }
 
-.instaimg {
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
 /*____________________________MENU_CONTENT_________________________________*/
 
 .menumainimg {
@@ -418,12 +471,6 @@ body, html {
 .menuh2 {
   text-align: center;
   color: black;
-}
-
-.menuparagraph {
-  text-align: center;
-  font-family: italic;
-  color: black; 
 }
 
 .birthdaybox { 
@@ -506,6 +553,45 @@ body, html {
   display: block;
 }
 
+.graduationbox {
+  border-style:solid;
+  border-color:#28D7AB;
+  background: transparent;
+  background-color:#28D7AB;
+}
+
+.graduation {
+  text-align: center;
+  font-family: lucida handwriting;
+  color: black;
+}
+
+.graduationimg {
+  width: 40%;
+  margin-left:auto;
+  display:black;
+}
+
+.holidaybox {
+  border-style: solid;
+  border-color:#28D7AB;
+  background: transparent;
+  background-color:#28D7AB;
+}
+
+.holiday{
+    text-align:center;
+    font-family: lucida handwriting;
+    color:black;
+}
+
+.holidayimg{
+    width: 40%;
+    margin-left:auto;
+    margin-right:auto;
+    display:black;
+}
+  
 .otherbox {
   border-style: solid;
   border-color:#28D7AB;
@@ -581,12 +667,17 @@ body, html {
 
 /*________________________________Review Page________________________________________*/
 
-.reviews{
+.reviewstitle {
   font-size:16px;
-  font-family:Arial;
+  font-family:lucida handwriting;
   border-style:solid;
+  text-align:center;
 }
 
-.fb-post{
-  text-align:center;
+.reviewb {
+  background-color: rgb(32, 167, 144);
+  text-decoration: black;
+  border-style: solid;
+  font-family: lucida handwriting;
+  text-align: center;
 }
