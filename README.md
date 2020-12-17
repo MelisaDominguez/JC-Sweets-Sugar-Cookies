@@ -21,18 +21,3 @@ Embedded link to carry you to ordering page
 
 
 Thank you, for taking the time to consider our website. We apprecite your time and your consideration.
-
-
-<!--------------------------------Jackelyn_Hilliard--------------------------------->
-
-
-
-
-
-<!------------------------------Delicia_H_Campbell---------------------------------->
-
-
-
-
-
-<!--------------------------------Melisa_Dominguez---------------------------------->
