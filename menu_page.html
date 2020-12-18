@@ -42,13 +42,12 @@
     
 <!-------------------------------------------menu content------------------------------->
   <div class="menuwelcomeinfo">
-    <h1 class="menutitle">
-      <u>Menu</u>
-    </h1>
-    <h3 class="menuh2">
+    <h2 class="menutitle">Menu
+    </h2>
+    <p class="menuh2">
       Here, you can order some of our cookie designs that we have made in the past. We have: Birthdays, Weddings, 
       a kids section, baby section and graduation. You can also contact us to order some custom designs of your own. 
-    </h3>
+    </p>
     <p class="costinfo">
       We sell cookies by a dozen. The pricing varies depending on the size and amount of detail in a cookie. 
       A dozen cookies with little detail will be about:
@@ -58,82 +57,258 @@
   </div>  
 
   <div class="parallax"></div> 
-      <div class="birthdaybox">
-        <h1 class="birthdays"><u>Birthdays</u></h1>
-        <img class="birthdayimg" src="img\122312384_3191180521005067_4237120046530610541_o.jpg">
-        <img class="birthdayimg" src="https://www.instagram.com/p/CGnSFoKHIiT/?igshid=1r1da4wuzn7wk">
-        <img class="birthdayimg" src="https://www.instagram.com/p/CG-dQgxnRAv/?igshid=4tytsidxrb5z">
-        <img class="birthdayimg" src="https://www.instagram.com/p/CEzMxAPHoKZ/?igshid=x6sg0t7lwqx2">
-        <img class="birthdayimg" src="">
+
+
+  <div class="menurow" style="margin-top: 20px;">
+    <div class="menucolumn" style="background-color:#28D7AB;">
+      <button id="myBtn">Birthdays</button>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <img class="menuimages" src="img\117397270_2979721618817626_6741818860294475836_o.jpg">
+          <img class="menuimages" src="img\117696396_2988181331304988_8815713150580531261_o.jpg">
+          <img class="menuimages" src="img\122219503_3187839004672552_7800765854687182985_o.jpg">
+          <img class="menuimages" src="img\107912464_2896477663808689_1115448160747966595_o.jpg">
+        </div>
       </div>
 
-  <div class="parallax"></div> 
-      <div class="weddingbox">
-        <h1 class="weddings"><u>Weddings</u></h1> 
-        <img class="weddingimg" scr="img\121675691_3177457495710703_4725057364565004162_o.jpg">
-        <img class="weddingimg" src="https://www.instagram.com/p/CGiHrI-n5GY/?igshid=qjptt7pdn35x">
-        <img class="weddingimg" src="https://www.instagram.com/p/CIJbPLCHyLH/?igshid=c9lggn2xexu8">
-        <img class="weddingimg" src="https://www.instagram.com/p/CIJbPLCHyLH/?igshid=znr3m69gmivb">
-        <img class="weddingimg" src="">
-      </div> 
-          
-  <div class="parallax"></div>
-      <div class="characterbox">
-        <h1 class="characters"><u>Kids</u></h1>
-        <img class="characterimg" scr="img\117696396_2988181331304988_8815713150580531261_o.jpg">
-        <img class="characterimg" src="https://www.instagram.com/p/CH8ZOqcHyu0/?igshid=1jgxtsho187vn">
-        <img class="characterimg" src="https://www.instagram.com/p/CHI7CPHHDZU/?igshid=wisvtzhqwqnr">
-        <img class="characterimg" src="https://www.instagram.com/p/CHI7CPHHDZU/?igshid=wisvtzhqwqnr">
-        <img class="characterimg" src="">
-      </div>  
-
-  <div class="parallax"></div>
-      <div class="babybox">
-        <h1 class="baby"><u>Baby</u></h1>
-        <img class="babyimg" scr="img\58939865_1986149884841476_4255368109847740416_o.jpg">
-        <img class="babyimg" src="https://www.instagram.com/p/CIThzRqHykt/?igshid=1iunzhiwt7i2f">
-        <img class="babyimg" src="https://www.instagram.com/p/CH0uONTnWQs/?igshid=1accndnejkdvl"> 
-        <img class="babyimg" src="https://www.instagram.com/p/CHgEaSvH7KV/?igshid=24tkou25stsx">
-        <img class="babyimg" src=""> 
-      </div> 
-
-  <div class="parallax"></div>
-      <div class="graduationbox">
-        <h1 class="graduation"><u>Graduation</u></h1>
-        <img class="graduation" src="">
-        <img class="graduationimg" src="">
-        <img class="graduationimg" src=""> 
-      </div>
-
-  <div class="parallax"></div>
-      <div class="holidaybox">    
-        <h1 class="holiday"><u>Holiday</u></h1>
-        <img class="holiday" src="">
-        <img class="holiday" src="">
-        <img class="holiday" src=""> 
-        <img class="holiday" src="">
-        <img class="holiday" src="">
-      </div>
-    
-  <div class="parallax"></div> 
-      <div class="otherbox">
-        <h1 class="other"><u>Other</u></h1>
-        <img class="otherimg" src="https://www.instagram.com/p/CA08kb-H37T/?igshid=1igcqwm0kaxjn"> 
-        <img class="otherimg" src="">
-        <img class="otherimg" src="">
-        <img class="otherimg" src="">
-        <img class="otherimg" src="">
-      </div>
-
-  <div class="parallax"></div>
-
-    <div class="menuorderbutton">
-      <a class="menuorderlink" href="http://www.facebook.com/jcsweetssugarcookies">Order Here</a>
+      <script>
+      var modal = document.getElementById("myModal");
+      var btn = document.getElementById("myBtn");
+      var span = document.getElementsByClassName("close")[0];
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+      </script>
     </div>
+    <div class="menucolumn" style="background-color:#28D7AB;">
+      <button id="myBtn2">Weddings</button>
+      <div id="myModal2" class="modal2">
+        <div class="modal-content2">
+          <span class="close2">&times;</span>
+          <img class="menuimages" src="img\121675691_3177457495710703_4725057364565004162_o.jpg">
+          <img class="menuimages" src="img\126063641_3257796597676792_5283719619860334050_o.jpg">
+          <img class="menuimages" src="img\127603012_3284417355014716_6883179029683597547_o.jpg">
+          <img class="menuimages" src="img\wedding.jpg">
+        </div>
+      </div>
 
-  <div class="parallax"></div>
+      <script>
+      var modal2 = document.getElementById("myModal2");
+      var btn2 = document.getElementById("myBtn2");
+      var span2 = document.getElementsByClassName("close2")[0];
+      btn2.onclick = function() {
+        modal2.style.display = "block";
+      }
+      span2.onclick = function() {
+        modal2.style.display = "none";
+      }
+      window.onclick = function(event) {
+        if (event.target == modal2) {
+          modal2.style.display = "none";
+        }
+      }
+      </script>
+    </div>
+    <div class="menucolumn" style="background-color:#28D7AB;">
+      <button id="myBtn3">Kids</button>
+      <div id="myModal3" class="modal3">
+        <div class="modal-content3">
+          <span class="close3">&times;</span>
+          <img class="menuimages" src="img\67946510_2176021462520983_5491065183415566336_o.jpg">
+          <img class="menuimages" src="img\119497676_3085809914875462_5141127787707670310_o.jpg">
+          <img class="menuimages" src="img\119682508_3076635315792922_5379537301644871270_o (1).jpg">
+          <img class="menuimages" src="img\123352417_3217498428373276_6748937123822022288_o.jpg">
+        </div>
+      </div>
 
-<!--------------------------------------footer------------------------------>
+      <script>
+      var modal3 = document.getElementById("myModal3");
+      var btn3 = document.getElementById("myBtn3");
+      var span3 = document.getElementsByClassName("close3")[0];
+      btn3.onclick = function() {
+        modal3.style.display = "block";
+      }
+      span3.onclick = function() {
+        modal3.style.display = "none";
+      }
+      window.onclick = function(event) {
+        if (event.target == modal3) {
+          modal3.style.display = "none";
+        }
+      }
+      </script>
+    </div>
+    <div class="menucolumn" style="background-color:#28D7AB;">
+      <button id="myBtn4">Baby</button>
+      <div id="myModal4" class="modal4">
+        <div class="modal-content4">
+          <span class="close4">&times;</span>
+          <img class="menuimages" src="img\117241661_2976246345831820_5976148243065999851_o.jpg">
+          <img class="menuimages" src="img\123546560_3220842254705560_8263699172828730255_o.jpg">
+          <img class="menuimages" src="img\123137634_3214745108648608_2855331347159440434_o.jpg">
+          <img class="menuimages" src="img\117696396_2988181331304988_8815713150580531261_o.jpg">
+        </div>
+      </div>
+
+      <script>
+      var modal4 = document.getElementById("myModal4");
+      var btn4 = document.getElementById("myBtn4");
+      var span4 = document.getElementsByClassName("close4")[0];
+      btn4.onclick = function() {
+        modal4.style.display = "block";
+      }
+      span4.onclick = function() {
+        modal4.style.display = "none";
+      }
+      window.onclick = function(event) {
+        if (event.target == modal4) {
+          modal4.style.display = "none";
+        }
+      }
+      </script>
+    </div>
+  </div>
+
+
+  <div class="menurow">
+    <div class="menucolumn2" style="background-color:#28D7AB;">
+      <button id="myBtn5">Graduation</button>
+      <div id="myModal5" class="modal5">
+        <div class="modal-content5">
+          <span class="close5">&times;</span>
+          <img class="menuimages" src="img\grad.jpg">
+          <img class="menuimages" src="img\grad2.jpg">
+          <img class="menuimages" src="img\grad3.jpg">
+          <img class="menuimages" src="img\grad4.jpg">
+        </div>
+      </div>
+
+      <script>
+      var modal5 = document.getElementById("myModal5");
+      var btn5 = document.getElementById("myBtn5");
+      var span5 = document.getElementsByClassName("close5")[0];
+      btn5.onclick = function() {
+        modal5.style.display = "block";
+      }
+      span5.onclick = function() {
+        modal5.style.display = "none";
+      }
+      window.onclick = function(event) {
+        if (event.target == modal5) {
+          modal5.style.display = "none";
+        }
+      }
+      </script>
+    </div>
+    <div class="menucolumn2" style="background-color:#28D7AB;">
+      <button id="myBtn6">Holiday</button>
+      <div id="myModal6" class="modal6">
+        <div class="modal-content6">
+          <span class="close6">&times;</span>
+          <img class="menuimages" src="img\holiday.jpg">
+          <img class="menuimages" src="img\holiday2.jpg">
+          <img class="menuimages" src="img\holiday4.jpg">
+          <img class="menuimages" src="img\holiday3.jpg">
+        </div>
+      </div>
+
+      <script>
+      var modal6 = document.getElementById("myModal6");
+      var btn6 = document.getElementById("myBtn6");
+      var span6 = document.getElementsByClassName("close6")[0];
+      btn6.onclick = function() {
+        modal6.style.display = "block";
+      }
+      span6.onclick = function() {
+        modal6.style.display = "none";
+      }
+      window.onclick = function(event) {
+        if (event.target == modal6) {
+          modal6.style.display = "none";
+        }
+      }
+      </script>
+    </div>
+  </div>
+
+
+  <div class="menurow">
+    <div class="menucolumn" style="width:100%;text-align:center;background-color:#28D7AB;">
+      <button id="myBtn7">Other</button>
+      <div id="myModal7" class="modal7">
+        <div class="modal-content7">
+          <span class="close7">&times;</span>
+          <img class="menuimages" src="img\122418282_3193425900780529_7769581493551935698_o.jpg">
+          <img class="menuimages" src="img\117644743_2985585824897872_7457575095243719811_o.jpg">
+          <img class="menuimages" src="img\121774222_3171997626256690_9118702130608107335_o.jpg">
+          <img class="menuimages" src="img\93590073_2685667941556330_4019800827383250944_o.jpg">
+        </div>
+      </div>
+
+      <script>
+      var modal7 = document.getElementById("myModal7");
+      var btn7 = document.getElementById("myBtn7");
+      var span7 = document.getElementsByClassName("close7")[0];
+      btn7.onclick = function() {
+        modal7.style.display = "block";
+      }
+      span7.onclick = function() {
+        modal7.style.display = "none";
+      }
+      window.onclick = function(event) {
+        if (event.target == modal7) {
+          modal7.style.display = "none";
+        }
+      }
+      </script>
+    </div>
+  </div>
+  <br>
+  
+
+<div class="parallax"></div>
+
+
+<div class="container">
+  <form action="mailto:jcsweetssugarcookies@gmail.com" method="post" enctype="text/plain">
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <br><label for="lname">Last Name</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+	<br><label for="pnumber">Phone Number</label><br>
+    <input type="text" id="pnumber" name="pnumber" placeholder="Your phone number..">
+    
+    <br><label for="category">Category</label><br>
+    <select id="category" name="category">
+      <option value="Birthdays">Birthdays</option>
+      <option value="Weddings">Weddings</option>
+      <option value="Kids">Kids</option>
+      <option value="Baby">Baby</option>
+      <option value="Graduation">Graduation</option>
+      <option value="Hoiday">Hoiday</option>
+      <option value="Other">Other</option>
+    </select>
+
+    <br><label for="subject">Description</label><br>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</div>
+
+<div class="parallax"></div>
 <!--------------------------- Site footer ---------------------------------------------->
 <footer class="footer">
   <div class="rowfooter">
