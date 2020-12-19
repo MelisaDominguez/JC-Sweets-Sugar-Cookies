@@ -79,12 +79,12 @@ h2 {
 }
 
 .mySlides {
-	display:none;
+  display:none;
 }
 
 .slideshow {
-	margin-top: -2px;
-  margin-bottom: 40px;
+	margin-top: 20px;
+  margin-bottom: 20px;
   width: 100%;
 }
 
@@ -132,6 +132,8 @@ h2 {
   width: 40%;
   margin-left: auto;
   margin-right: auto;
+  height: 350px;
+  object-fit: cover;
   display: block;
 }
 .parallax {
@@ -254,7 +256,10 @@ h2 {
 
 .aboutusmainimg {
   width: 100%;
-  height: auto;
+  height: 80%;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .aboutusinfo {
@@ -313,7 +318,9 @@ h2 {
 
 .contactusmainimg {
   width: 100%;
-  height: auto;
+  height: 80%;
+  object-fit: cover;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 .contactform {
@@ -364,7 +371,6 @@ h2 {
   list-style-type: none;
   font-family: lucida Sans Regular;
 }
-.contactuswelcometext {}
 .contactush1 {
   text-align: center;
   color: white;
@@ -393,9 +399,41 @@ h2 {
 
 .menumainimg {
   width: 100%; 
-  height: auto;
+  height: 80%;
+  object-fit: cover;
+  margin-top: 20px;
   margin-bottom: 20px;
 }  
+
+.menuh2 {
+  color: rgb(10, 110, 100);
+  text-align: center;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: lucida Sans Regular;
+}
+
+.costinfo {
+  color: rgb(10, 110, 100);
+  text-align: center;
+  list-style-type: none;
+  font-size: 15px;
+  font-family: lucida Sans Regular;
+}
+
+.clickexample {
+  color: rgb(10, 110, 100);
+  text-align: center;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: lucida Sans Regular;
+}
+
+.menutitle {
+  font-size: 50px;
+}
 
 .menucolumn {
   float: left;
@@ -435,43 +473,45 @@ h2 {
 
 /*_________________________Gifting_________________________________________*/
 
-.gifttop {
-  background:#28D7AB ;
-}
-
 .giftingimg {
   width: 100%;
-  height: auto;
+  height: 80%;
+  object-fit: cover;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-.giftingh1 {
-  text-align: center;
-  color: rgb(32, 167, 144);
-  font-family: lucida handwriting; 
-}
-
-.gifting-link{
-  background-color: rgb(32, 167, 144); 
-  color:black;
-  border-style:solid;
-  font-family:lucida handwriting;
-  font-size:18px;
-  text-align: center;
-}
-
-.gifting-text{
-  text-align: center;
-}
-
-.giftslideshow {
-  margin-top: -50;
-  margin-bottom: 20px;
+div.gallery img {
   width: 100%;
+  object-fit: cover;
+}
+* {
+  box-sizing: border-box;
 }
 
-.giftimg {
-  display: none;
+.responsive {
+  padding: 10px 10px 10px 10px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /*________________________________Review Page________________________________________*/
@@ -492,7 +532,9 @@ h2 {
 
 .reviewsmainimg {
   width: 100%;
-  height: auto;
+  height: 80%;
+  object-fit: cover;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
